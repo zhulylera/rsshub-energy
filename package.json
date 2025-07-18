@@ -1,14 +1,9 @@
 {
   "name": "rsshub",
   "version": "1.0.0",
-  "description": "Telegram RSS Proxy",
-  "main": "lib/index.js",
+  "type": "module",
   "scripts": {
-    "start": "node lib/index.js",
-    "dev": "node lib/index.js",
-    "build": "node lib/index.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
+    "build": "echo 'no build step'",
+    "start": "node lib/index.js"
   }
 }
